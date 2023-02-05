@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "550465239577",
-    "project_id": "trip-41807",
-    "storage_bucket": "trip-41807.appspot.com"
+    "project_number": "894071781147",
+    "project_id": "trip-agency-dbfd6",
+    "storage_bucket": "trip-agency-dbfd6.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:550465239577:android:ada1ef3e92139855780888",
+        "mobilesdk_app_id": "1:894071781147:android:a573d503ac117be9b945be",
         "android_client_info": {
           "package_name": "com.agencytravelboat.amazon"
         }
       },
       "oauth_client": [
         {
-          "client_id": "550465239577-en1arjta3bb13u6i62s2lb46mro4v5p9.apps.googleusercontent.com",
+          "client_id": "894071781147-cpao6elrph1urk2c2rticia6hk64jrce.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA78qRHtpc1jhUmDJcXHXGwRYSyMvEHzXA"
+          "current_key": "AIzaSyD-VG0JVepML09rNRqFZQHuL_HAqr0tPYo"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "550465239577-en1arjta3bb13u6i62s2lb46mro4v5p9.apps.googleusercontent.com",
+              "client_id": "894071781147-cpao6elrph1urk2c2rticia6hk64jrce.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
