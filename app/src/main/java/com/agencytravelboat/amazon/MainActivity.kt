@@ -22,7 +22,6 @@ class MainActivity : AppCompatActivity() {
         getProduto()
     }
     fun getProduto() {
-
         try {
             db.collection("Embarcacao")
                 .get()
