@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     tools:context=".presentation.ui.HomeFragment">
 
+    <data>
+
+        <variable
+            name="viewmodel"
+            type="com.agencytravelboat.amazon.presentation.ui.HomeViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="aqui jjjjj"
+            tools:ignore="MissingConstraints" />
+
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerViewListaProdutos"
+        android:id="@+id/recyclerViewListaEmbarcao"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -19,3 +34,4 @@
         tools:listitem="@layout/item_embarcacao" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,6 +1,5 @@
 package com.agencytravelboat.amazon.data.repository
 
-import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import com.agencytravelboat.amazon.data.model.Embarcacao
 import com.google.firebase.firestore.ktx.firestore
@@ -16,7 +15,7 @@ class EmbarcacaoRepository {
         newsFeedReference.get().addOnSuccessListener{ ValueEventListener ->
             for (document in ValueEventListener) {
                 val post = document.toObject(Embarcacao::class.java)
-                  liveData.postValue(mutableListOf(post))
+                liveData.postValue(mutableListOf(post))
 
             }
         }
